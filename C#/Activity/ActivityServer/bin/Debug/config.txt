@@ -1,0 +1,2 @@
+ComPort=COM1
+BaudRate=9600

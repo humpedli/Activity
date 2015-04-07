@@ -1,0 +1,7 @@
+C:\Users\sonrisa\Documents\Visual Studio 2013\Projects\Activity\ActivityServer\bin\Release\ActivityServer.exe
+C:\Users\sonrisa\Documents\Visual Studio 2013\Projects\Activity\ActivityServer\bin\Release\ActivityServer.pdb
+C:\Users\sonrisa\Documents\Visual Studio 2013\Projects\Activity\ActivityServer\bin\Release\Alchemy.dll
+C:\Users\sonrisa\Documents\Visual Studio 2013\Projects\Activity\ActivityServer\bin\Release\Newtonsoft.Json.dll
+C:\Users\sonrisa\Documents\Visual Studio 2013\Projects\Activity\ActivityServer\bin\Release\Newtonsoft.Json.xml
+C:\Users\sonrisa\Documents\Visual Studio 2013\Projects\Activity\ActivityServer\obj\Release\ActivityServer.exe
+C:\Users\sonrisa\Documents\Visual Studio 2013\Projects\Activity\ActivityServer\obj\Release\ActivityServer.pdb

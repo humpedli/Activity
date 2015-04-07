@@ -1,0 +1,22 @@
+﻿<Window x:Class="ActivityClient.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="ActivityClient" Height="720" Width="1280" WindowStartupLocation="CenterScreen" KeyDown="Window_KeyDown" ResizeMode="NoResize" MouseDoubleClick="Window_MouseDoubleClick" Icon="Assets/icon.ico">
+    <Window.Background>
+        <ImageBrush ImageSource="Assets/bg.jpg"/>
+    </Window.Background>
+    <Grid>
+        <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+            <TextBlock x:Name="txtTimer" FontFamily="/ActivityClient;component/Assets/#KG The Last Time" FontSize="450" Foreground="White" />
+        </StackPanel>
+        <StackPanel VerticalAlignment="Bottom" HorizontalAlignment="Center">
+            <TextBlock x:Name="txtTeam" FontSize="100" Foreground="White" Margin="0,0,0,200" FontWeight="Bold" />
+        </StackPanel>
+        <StackPanel VerticalAlignment="Bottom" HorizontalAlignment="Left">
+            <TextBlock x:Name="txtInfo" Text="ENTER - Teljes képernyő/Ablakos mód, SPACE - Start/Stop, BACKSPACE - Reset, 1-2-3-4 - Játékmód választás, ESC - Bezárás" FontSize="14" Foreground="White"/>
+        </StackPanel>
+        <StackPanel VerticalAlignment="Bottom" HorizontalAlignment="Right">
+            <TextBlock x:Name="txtStatus" Text="Nincs kapcsolat a szerverrel, újracsatlakozás..." FontSize="14" Foreground="White"/>
+        </StackPanel>
+    </Grid>
+</Window>

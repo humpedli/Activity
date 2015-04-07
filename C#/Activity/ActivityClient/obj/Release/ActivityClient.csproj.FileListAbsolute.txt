@@ -1,0 +1,17 @@
+C:\Users\sonrisa\Documents\Visual Studio 2013\Projects\Activity\ActivityClient\bin\Release\ActivityClient.exe
+C:\Users\sonrisa\Documents\Visual Studio 2013\Projects\Activity\ActivityClient\bin\Release\ActivityClient.pdb
+C:\Users\sonrisa\Documents\Visual Studio 2013\Projects\Activity\ActivityClient\bin\Release\Alchemy.dll
+C:\Users\sonrisa\Documents\Visual Studio 2013\Projects\Activity\ActivityClient\bin\Release\Newtonsoft.Json.dll
+C:\Users\sonrisa\Documents\Visual Studio 2013\Projects\Activity\ActivityClient\bin\Release\Newtonsoft.Json.xml
+C:\Users\sonrisa\Documents\Visual Studio 2013\Projects\Activity\ActivityClient\obj\Release\ActivityClient.csprojResolveAssemblyReference.cache
+C:\Users\sonrisa\Documents\Visual Studio 2013\Projects\Activity\ActivityClient\obj\Release\ConfigWindow.baml
+C:\Users\sonrisa\Documents\Visual Studio 2013\Projects\Activity\ActivityClient\obj\Release\MainWindow.baml
+C:\Users\sonrisa\Documents\Visual Studio 2013\Projects\Activity\ActivityClient\obj\Release\ConfigWindow.g.cs
+C:\Users\sonrisa\Documents\Visual Studio 2013\Projects\Activity\ActivityClient\obj\Release\MainWindow.g.cs
+C:\Users\sonrisa\Documents\Visual Studio 2013\Projects\Activity\ActivityClient\obj\Release\App.g.cs
+C:\Users\sonrisa\Documents\Visual Studio 2013\Projects\Activity\ActivityClient\obj\Release\ActivityClient_MarkupCompile.cache
+C:\Users\sonrisa\Documents\Visual Studio 2013\Projects\Activity\ActivityClient\obj\Release\ActivityClient.g.resources
+C:\Users\sonrisa\Documents\Visual Studio 2013\Projects\Activity\ActivityClient\obj\Release\ActivityClient.Properties.Resources.resources
+C:\Users\sonrisa\Documents\Visual Studio 2013\Projects\Activity\ActivityClient\obj\Release\ActivityClient.csproj.GenerateResource.Cache
+C:\Users\sonrisa\Documents\Visual Studio 2013\Projects\Activity\ActivityClient\obj\Release\ActivityClient.exe
+C:\Users\sonrisa\Documents\Visual Studio 2013\Projects\Activity\ActivityClient\obj\Release\ActivityClient.pdb
