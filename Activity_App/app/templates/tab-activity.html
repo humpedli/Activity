@@ -1,0 +1,52 @@
+<ion-view view-title="Activity">
+    <ion-content>
+        <div class="item item-input-inset">
+            <label class="item-input-wrapper">
+                <input type="text" ng-model="view.ipAddress" placeholder="IP cím">
+            </label>
+            <button class="button button-small button-orange" ng-click="connect()" ng-disabled="!view.ipAddress">
+                Csatlakozás
+            </button>
+        </div>
+        <div class="main-area">
+            <div class="text-center">
+                <div ng-if="socketStatus == 'disconnected'" class="no-connection">
+                    <i class="icon ion-alert-circled"></i> 
+                    <span>Nincs kapcsolat a szerverrel</span>
+                </div>
+                <div ng-if="socketStatus == 'connecting'" class="no-connection">
+                    <i class="icon ion-log-in"></i>
+                    <span>Csatlakozás...</span>
+                </div>
+                <div ng-if="socketStatus == 'connected'">
+                    <h3 class="timer">{{view.timer}}</h3>
+                </div>
+            </div>
+            <div class="button-warning" ng-if="view.buttonPressed != 0">
+                <p>A(z) {{teams[view.buttonPressed - 1] || view.buttonPressed + '.'}} csapat megnyomta a(z) {{view.buttonPressed}}. számú gombot! Az idő megállt.</p>
+            </div>
+            <div class="row">
+                <div class="col text-right">
+                    <button class="button button-round icon" ng-class="{'button-energized ion-pause': view.timerStatus, 'button-balanced ion-play': !view.timerStatus}" ng-click="action('startstop')" ng-disabled="socketStatus != 'connected'"></button>
+                </div>
+                <div class="col text-left">
+                    <button class="button button-positive button-round icon ion-refresh" ng-click="action('reset')" ng-disabled="socketStatus != 'connected'"></button>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <button class="button button-block" ng-class="{'button-orange': view.gameMode == 'NORMAL', 'button-stable': view.gameMode != 'NORMAL'}" ng-click="gameMode('NORMAL')" ng-disabled="socketStatus != 'connected'">Norm.</button>
+            </div>
+            <div class="col">
+                <button class="button button-block" ng-class="{'button-orange': view.gameMode == 'HALFROBBER', 'button-stable': view.gameMode != 'HALFROBBER'}" ng-click="gameMode('HALFROBBER')" ng-disabled="socketStatus != 'connected'">Fél</button>
+            </div>
+            <div class="col">
+                <button class="button button-block" ng-class="{'button-orange': view.gameMode == 'FULLROBBER', 'button-stable': view.gameMode != 'FULLROBBER'}" ng-click="gameMode('FULLROBBER')" ng-disabled="socketStatus != 'connected'">Teljes</button>
+            </div>
+            <div class="col">
+                <button class="button button-block" ng-class="{'button-orange': view.gameMode == 'EXTRA', 'button-stable': view.gameMode != 'EXTRA'}" ng-click="gameMode('EXTRA')" ng-disabled="socketStatus != 'connected'">Extra</button>
+            </div>
+        </div>
+    </ion-content>
+</ion-view>

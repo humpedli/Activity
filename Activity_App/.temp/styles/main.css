@@ -1,0 +1,88 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/hump\/Documents\/Work\/Activity\/app\/styles\/main\.scss}line{font-family:\000031}}
+[ng\:cloak], [ng-cloak], .ng-cloak {
+  display: none !important;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/hump\/Documents\/Work\/Activity\/app\/styles\/main\.scss}line{font-family:\000035}}
+hr {
+  border: 0;
+  border-top: 1px solid #ddd;
+  display: block;
+  height: 1px;
+  margin: 1em 0;
+  padding: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/hump\/Documents\/Work\/Activity\/app\/styles\/main\.scss}line{font-family:\0000314}}
+.button-warning {
+  padding: 10px 10px 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/hump\/Documents\/Work\/Activity\/app\/styles\/main\.scss}line{font-family:\0000317}}
+.button-warning p {
+  background: #EAD98B;
+  font-weight: bold;
+  padding: 10px;
+  text-align: center;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/hump\/Documents\/Work\/Activity\/app\/styles\/main\.scss}line{font-family:\0000325}}
+.button-round {
+  border-radius: 50%;
+  height: 100px;
+  margin: 0 20px;
+  width: 100px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/hump\/Documents\/Work\/Activity\/app\/styles\/main\.scss}line{font-family:\0000331}}
+.button-round.icon:before {
+  font-size: 40px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/hump\/Documents\/Work\/Activity\/app\/styles\/main\.scss}line{font-family:\0000334}}
+.button-round.ion-refresh:before {
+  padding-left: 5px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/hump\/Documents\/Work\/Activity\/app\/styles\/main\.scss}line{font-family:\0000339}}
+.main-area {
+  background-color: #ffefce;
+  padding: 20px 0;
+  margin: 20px 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/hump\/Documents\/Work\/Activity\/app\/styles\/main\.scss}line{font-family:\0000344}}
+.main-area .timer {
+  font-size: 40px;
+  margin-bottom: 40px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/hump\/Documents\/Work\/Activity\/app\/styles\/main\.scss}line{font-family:\0000349}}
+.main-area .no-connection {
+  margin-top: 10px;
+  margin-bottom: 40px;
+  font-size: 20px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/hump\/Documents\/Work\/Activity\/app\/styles\/main\.scss}line{font-family:\0000356}}
+.bar.bar-orange {
+  background-color: #c98e16;
+  border-color: #ff7900;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/hump\/Documents\/Work\/Activity\/app\/styles\/main\.scss}line{font-family:\0000360}}
+.bar.bar-orange .title {
+  color: #ffffff;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/hump\/Documents\/Work\/Activity\/app\/styles\/main\.scss}line{font-family:\0000365}}
+.button.button-orange {
+  background-color: #c98e16;
+  border-color: #ff7900;
+  color: #ffffff;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/hump\/Documents\/Work\/Activity\/app\/styles\/main\.scss}line{font-family:\0000371}}
+.popup-container .popup {
+  background: #ffffff;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/hump\/Documents\/Work\/Activity\/app\/styles\/main\.scss}line{font-family:\0000375}}
+.popup-body {
+  text-align: center;
+  overflow: hidden;
+}
